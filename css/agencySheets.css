@@ -811,7 +811,8 @@ body {
 {
 
   header {
-    background-image: url('../img/about/2.png') !important;
+    /*background-image: url('../img/about/2.png') !important;*/
+    background-image: url('../img/header-bg2.jpg') !important;
     width: 414px;
     height: 736px;
     padding: 0;
@@ -820,6 +821,16 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
+    text-align: center;
+    color: white;
+
   }
 
   .navbar-custom .navbar-toggle {
