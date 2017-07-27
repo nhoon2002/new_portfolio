@@ -812,13 +812,19 @@ body {
 
   header {
     background-image: url('../img/header-bg2.jpg');
-    padding-top: 100%;
-    padding-bottom: 100%;
+    width: 414px;
+    height: 736px;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   .navbar-custom .navbar-toggle {
     margin-right: 40px;
-    background-color: red;
+    background-color: blue;
   }
   section {
     /*padding-top: 0px;*/
