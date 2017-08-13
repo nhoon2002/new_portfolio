@@ -861,11 +861,73 @@ body {
     padding: 0;
   }
 
+  #mainNav {
+    width: 100vw !important;
+  }
+
+  div.navbar-header.page-scroll {
+    width: 100vw !important;
+
+  }
   .landing {
 
     height: 100vh;
     width: 100vw;
     background-image: url('../img/header-bg2.jpg') !important;
+    background-size: contain;
+
+
+
+  }
+
+  .navbar-custom .navbar-toggle {
+    margin-right: 40px;
+    background-color: blue;
+  }
+  section {
+    /*padding-top: 0px;*/
+    padding-bottom: 0px;
+  }
+
+  section#contact {
+    padding-bottom: 300px
+  }
+
+  section h2.section-heading {
+    padding-bottom: 10px;
+  }
+}
+/*iP6 portrait*/
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio : 2)
+{
+
+
+  body {
+    /*overflow-x: visible;*/
+  }
+  header {
+    background-image: url('');
+    padding: 0;
+  }
+
+  #mainNav {
+    width: 100vw !important;
+  }
+
+  div.navbar-header.page-scroll {
+    width: 100vw !important;
+
+  }
+  .landing {
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/header-bg.jpg') !important;
+    background-size: contain;
 
 
 
