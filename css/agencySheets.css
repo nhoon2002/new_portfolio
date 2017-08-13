@@ -776,11 +776,13 @@ body {
 
 /*iP6+ landscape*/
 @media only screen
-    and (min-device-width : 414px)
+    and (min-device-width : 320px)
     and (max-device-width : 736px)
     and (orientation : landscape)
     and (-webkit-min-device-pixel-ratio : 3)
 {
+
+
   .navbar-custom .navbar-toggle {
     margin-right: 80px;
   }
@@ -803,11 +805,8 @@ body {
 @media only screen
     and (min-device-width : 414px)
     and (max-device-width : 736px)
-    and (device-width : 414px)
-    and (device-height : 736px)
     and (orientation : portrait)
     and (-webkit-min-device-pixel-ratio : 3)
-    and (-webkit-device-pixel-ratio : 3)
 {
   body {
     /*overflow-x: visible;*/
@@ -819,8 +818,53 @@ body {
 
   .landing {
 
-    height: 736px;
-    width: 414px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/header-bg2.jpg') !important;
+
+
+
+  }
+
+  .navbar-custom .navbar-toggle {
+    margin-right: 40px;
+    background-color: blue;
+  }
+  section {
+    /*padding-top: 0px;*/
+    padding-bottom: 0px;
+  }
+
+  section#contact {
+    padding-bottom: 300px
+  }
+
+  section h2.section-heading {
+    padding-bottom: 10px;
+  }
+}
+
+/*iP6 portrait*/
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio : 2)
+{
+
+
+  body {
+    /*overflow-x: visible;*/
+  }
+  header {
+    background-image: url('');
+    padding: 0;
+  }
+
+  .landing {
+
+    height: 100vh;
+    width: 100vw;
     background-image: url('../img/header-bg2.jpg') !important;
 
 
